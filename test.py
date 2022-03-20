@@ -8,6 +8,7 @@ from selenium.webdriver.support.expected_conditions import title_is
 from webdriver_manager import ChromeDriverManager
 
 # https://www.selenium.dev/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.expected_conditions.html?highlight=expected
+# pip install webriver-manager
 
 #driver = webdriver.Chrome()
 driver = webdriver.Chrome(ChromeDriverManager().install())
